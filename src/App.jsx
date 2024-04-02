@@ -3,6 +3,9 @@ import Header from "./components/Header";
 import Secondheader from "./components/Secondheader";
 import Categories from "./components/Categories";
 import Footer from "./components/Footer";
+import Myway from "./components/Myway";
+import LearningPath from "./components/LearningPath";
+import LearningPaths from "./components/Newpath";
 function App() {
   return (
     <>
@@ -10,6 +13,9 @@ function App() {
       <Secondheader />
       <Categories />
       <Footer />
+      <Myway />
+      <LearningPath />
+      <LearningPaths />
     </>
   );
 }
